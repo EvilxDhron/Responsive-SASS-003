@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+  header {
+    nav {
+      .nav-part2 {
+        .nav-pt2 {
+          gap: 1.2rem;
+          button {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            display: block;
+            font-family: "Roboto Mono";
+            padding: 0.6rem 1.5rem;
+            background-color: black;
+            border: none;
+            border-radius: 30px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 990px) {
+  header {
+    nav {
+      .nav-part2 {
+        @include row-center;
+        gap: 2rem;
+
+        .nav-pt1 {
+          display: block;
+
+          ul {
+            @include row-center;
+            gap: 2rem;
+
+            li {
+              list-style: none;
+
+              a {
+                text-decoration: none;
+                font-family: "Roboto Mono";
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                color: rgb(55, 55, 55);
+              }
+            }
+          }
+        }
+        .nav-pt2 {
+          gap: 2rem;
+
+          .menu-img {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
