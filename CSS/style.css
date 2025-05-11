@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "GeneralSans-Regular";
+  src: url("../general-sans/GeneralSans-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: "GeneralSans-Regular", sans-serif;
+  font-weight: 100;
+}
