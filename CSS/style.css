@@ -57,6 +57,103 @@ header nav .nav-part2 .nav-pt2 .menu-img img {
   width: 100%;
 }
 
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  padding: clamp(0.8rem, 2.7vw + 1px, 2.3rem) clamp(1.5rem, 6vw + 1px, 3.5rem);
+}
+main .hero {
+  width: 100%;
+}
+main .hero .txt-img {
+  width: 100%;
+  margin-bottom: 0.8rem;
+}
+main .hero .txt-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .hero .txt2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+main .sec2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  gap: 2rem;
+}
+main .sec2 .sec2-pt1 {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .sec2 .sec2-pt1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .sec2 .sec2-pt2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+main .sec2 .sec2-pt2 h1 {
+  font-size: 2.5rem;
+  font-family: "GeneralSans-Regular";
+  text-transform: uppercase;
+  font-weight: 200;
+  width: 80%;
+  line-height: 1.1;
+}
+main .sec2 .sec2-pt2 p {
+  font-size: 1.1rem;
+  font-family: "Roboto Mono";
+  line-height: 1.5;
+}
+main .sec2 .sec2-pt3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+main .sec2 .sec2-pt3 hr {
+  background-color: grey;
+  width: 100%;
+  height: 0.5px;
+}
+main .sec2 .sec2-pt3 .lst {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+main .sec2 .sec2-pt3 .lst p {
+  font-size: 1.5rem;
+  font-family: "GeneralSans-Regular";
+}
+
 @media (min-width: 768px) {
   header nav .nav-part2 .nav-pt2 {
     gap: 1.2rem;
