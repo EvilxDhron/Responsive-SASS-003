@@ -68,6 +68,7 @@ main {
 }
 main .hero {
   width: 100%;
+  padding-bottom: 0.7rem;
 }
 main .hero .txt-img {
   width: 100%;
@@ -86,6 +87,12 @@ main .hero .txt2 {
   justify-content: center;
   gap: 1rem;
   justify-content: space-between;
+}
+main .hero .txt2 p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-family: "Roboto Mono";
+  letter-spacing: 1px;
 }
 main .sec2 {
   width: 100%;
@@ -150,8 +157,10 @@ main .sec2 .sec2-pt3 .lst {
   justify-content: space-between;
 }
 main .sec2 .sec2-pt3 .lst p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-family: "GeneralSans-Regular";
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 768px) {
