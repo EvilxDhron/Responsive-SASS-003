@@ -175,6 +175,60 @@ main {
       }
     }
   }
+  .sec3{
+    width: 100%;
+    @include col-center;
+    gap: 2rem;
+
+    .sec3-container{
+        width: 100%;
+        @include col-center;
+        gap: 2rem;
+
+      .sec3-pt1{
+        width: 100%;
+
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .sec3-pt2{
+        width: 100%;
+        @include row-center;
+
+        .sec3-pt2-item1{
+          p{
+            writing-mode: vertical-rl;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            font-family: "Roboto Mono";
+            letter-spacing: 1px;
+          }
+        }
+        .sec3-pt2-item2{
+          width: 100%;
+          @include col-center;
+
+          h2{
+            font-size: clamp(2.75rem, 6vw + 1px, 5rem);
+            font-family: "GeneralSans-Regular";
+            text-transform: uppercase;
+            font-weight: 200;
+            // width: 80%;
+            line-height: 1;
+          }
+          p {
+          // font-size: 1.1rem;
+          font-size: clamp(1.1rem, calc(2vw + 1px), 1.4rem);
+          font-family: "Roboto Mono";
+          line-height: 1.5;
+          }
+        }
+      }
+    }
+  }
 }
 
 @import "_st_media.scss";
