@@ -58,4 +58,23 @@
       }
     }
   }
+  main{
+    .sec2{
+      flex-direction: row-reverse;
+      align-items: center;
+
+      .sec2-pt1{
+        aspect-ratio: 5/6;
+      }
+      .section2-pt2{
+        .sec2-pt2{
+          h1{
+            width: 100%;
+            line-height: 1;
+
+          }
+        }
+      }
+    }
+  }
 }
