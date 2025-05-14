@@ -324,3 +324,11 @@ main .sec3 .sec3-container .sec3-pt2 .sec3-pt2-item2 p {
     gap: clamp(3rem, 6vw + 1px, 4rem);
   }
 }
+@media (min-width: 1200px) {
+  main .sec2 .sec2-pt1 {
+    aspect-ratio: 1/1;
+  }
+  main .sec3 .sec3-container .sec3-pt1 {
+    aspect-ratio: 1/1;
+  }
+}
