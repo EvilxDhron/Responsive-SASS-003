@@ -142,6 +142,7 @@ main .sec2 .section2-pt2 .sec2-pt2 p {
   font-size: clamp(1.1rem, 2vw + 1px, 1.4rem);
   font-family: "Roboto Mono";
   line-height: 1.5;
+  color: #111;
 }
 main .sec2 .section2-pt2 .sec2-pt3 {
   width: 100%;
@@ -201,10 +202,10 @@ main .sec3 .sec3-container .sec3-pt1 img {
 main .sec3 .sec3-container .sec3-pt2 {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  gap: clamp(2rem, 6vw + 1px, 3rem);
+}
+main .sec3 .sec3-container .sec3-pt2 .sec3-pt2-item1 {
+  margin-top: 12px;
 }
 main .sec3 .sec3-container .sec3-pt2 .sec3-pt2-item1 p {
   writing-mode: vertical-rl;
@@ -222,7 +223,7 @@ main .sec3 .sec3-container .sec3-pt2 .sec3-pt2-item2 {
   gap: 1rem;
 }
 main .sec3 .sec3-container .sec3-pt2 .sec3-pt2-item2 h2 {
-  font-size: clamp(2.75rem, 6vw + 1px, 5rem);
+  font-size: clamp(2.75rem, 9vw + 1px, 5.6rem);
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;
   font-weight: 200;
@@ -232,6 +233,7 @@ main .sec3 .sec3-container .sec3-pt2 .sec3-pt2-item2 p {
   font-size: clamp(1.1rem, 2vw + 1px, 1.4rem);
   font-family: "Roboto Mono";
   line-height: 1.5;
+  color: rgba(17, 17, 17, 0.5);
 }
 
 @media (min-width: 768px) {
