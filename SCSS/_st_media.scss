@@ -76,5 +76,27 @@
         }
       }
     }
+    .sec3{
+      .sec3-container{
+        @include row-center;
+        gap: 3rem;
+
+        .sec3-pt1{
+          width: 32%;
+          aspect-ratio: 5/6;
+        }
+        .sec3-pt2{
+          padding: 2rem 0;
+          width: 68%;
+          flex-direction: row-reverse;
+          height: auto;
+          align-self: stretch;
+
+          .sec3-pt2-item2{
+            gap: clamp(3rem, calc(6vw + 1px), 4rem);
+          }
+        }
+      }
+    }
   }
 }
