@@ -26,6 +26,14 @@ body {
   gap: 1rem;
 }
 
+@mixin img-adjust{
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
 @font-face {
   font-family: "GeneralSans-Regular";
   src: url("../general-sans/GeneralSans-Regular.woff2");
@@ -232,6 +240,37 @@ main {
             max-width: 600px;
           }
         }
+      }
+    }
+  }
+  .sec4{
+    width: 100%;
+    @include col-center;
+    gap: 2rem;
+
+    .sec4-container{
+      width: 100%;
+      @include col-center;
+      gap: 2rem;
+
+      .sec4-pt1{
+        width: 100%;
+        @include col-center;
+        .pt1-top{
+          h2 {
+            font-size: clamp(2.75rem, calc(6.5vw + 1px), 5.6rem);
+            font-family: "GeneralSans-Regular";
+            text-transform: uppercase;
+            font-weight: 200;
+            // width: 80%;
+            line-height: 1;
+          }
+        }
+      }
+
+      .sec4-pt2{
+        width: 100%;
+        @include img-adjust;
       }
     }
   }
