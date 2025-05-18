@@ -131,7 +131,7 @@ main .sec2 .section2-pt2 .sec2-pt2 {
   gap: 1rem;
 }
 main .sec2 .section2-pt2 .sec2-pt2 h1 {
-  font-size: clamp(2.5rem, 6vw + 1px, 5rem);
+  font-size: clamp(2.5rem, 5.5vw + 1px, 5rem);
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;
   font-weight: 200;
@@ -266,7 +266,7 @@ main .sec4 .sec4-container .sec4-pt1 {
   gap: 2rem;
 }
 main .sec4 .sec4-container .sec4-pt1 .pt1-top h2 {
-  font-size: clamp(2.75rem, 6.5vw + 1px, 5.6rem);
+  font-size: clamp(2.75rem, 6.2vw + 1px, 5.6rem);
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;
   font-weight: 200;
@@ -291,7 +291,7 @@ main .sec4 .sec4-container .sec4-pt1 .pt1-bottom p {
   font-size: 1rem;
   font-family: "Roboto Mono";
   line-height: 1.5;
-  color: rgba(117, 116, 116, 0.5);
+  color: rgba(17, 17, 17, 0.5);
 }
 main .sec4 .sec4-container .sec4-pt1 .pt1-bottom .pt1-bt-item {
   display: flex;
@@ -358,6 +358,14 @@ main .sec4 .sec4-container .sec4-pt2 img {
     border-radius: 30px;
     color: white;
   }
+  main .sec4 .sec4-container {
+    height: auto;
+  }
+  main .sec4 .sec4-container .sec4-pt1 .pt1-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: clamp(2rem, 6vw + 1px, 3rem);
+  }
 }
 @media (min-width: 990px) {
   header nav .nav-part2 {
@@ -400,7 +408,8 @@ main .sec4 .sec4-container .sec4-pt2 img {
     align-items: center;
   }
   main .sec2 .sec2-pt1 {
-    aspect-ratio: 5/6;
+    align-self: stretch;
+    height: auto;
   }
   main .sec2 .section2-pt2 .sec2-pt2 h1 {
     width: 100%;
@@ -416,7 +425,8 @@ main .sec4 .sec4-container .sec4-pt2 img {
   }
   main .sec3 .sec3-container .sec3-pt1 {
     width: 32%;
-    aspect-ratio: 5/6;
+    align-self: stretch;
+    height: auto;
   }
   main .sec3 .sec3-container .sec3-pt2 {
     padding: 2rem 0;
@@ -427,6 +437,16 @@ main .sec4 .sec4-container .sec4-pt2 img {
   }
   main .sec3 .sec3-container .sec3-pt2 .sec3-pt2-item2 {
     gap: clamp(3rem, 6vw + 1px, 4rem);
+  }
+  main .sec4 .sec4-container {
+    flex-direction: row;
+  }
+  main .sec4 .sec4-container .sec4-pt1 .pt1-bottom .pt1-bt-item .item-pt1 h3 {
+    font-size: clamp(1rem, 1.7vw + 1px, 2rem);
+  }
+  main .sec4 .sec4-container .sec4-pt2 {
+    align-self: stretch;
+    height: auto;
   }
 }
 @media (min-width: 1200px) {
