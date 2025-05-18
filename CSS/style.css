@@ -281,7 +281,8 @@ main .sec4 .sec4-container .sec4-pt1 .pt1-bottom {
   gap: 2rem;
 }
 main .sec4 .sec4-container .sec4-pt1 .pt1-bottom h3 {
-  font-size: clamp(1.7rem, 3vw + 1px, 2rem);
+  font-weight: 300;
+  font-size: clamp(1.5rem, 3vw + 1px, 2rem);
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -327,7 +328,6 @@ main .sec4 .sec4-container .sec4-pt1 .pt1-bottom .pt1-bt-item .item-pt2 svg {
 }
 main .sec4 .sec4-container .sec4-pt1 .pt1-bottom .pt1-bt-item .item-pt2 p {
   font-size: 0.9rem;
-  font-weight: bold;
   text-transform: uppercase;
   font-family: "Roboto Mono";
   line-height: 1.5;
