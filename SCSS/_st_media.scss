@@ -77,6 +77,7 @@
     .sec2 {
       flex-direction: row-reverse;
       align-items: center;
+      gap: clamp(2.5rem, calc(5.5vw + 1px), 4rem);
 
       .sec2-pt1 {
         // aspect-ratio: 5/6;
@@ -84,10 +85,20 @@
         height: auto;
       }
       .section2-pt2 {
+        align-self: stretch;
+        height: auto;
+        justify-content: space-between;
+        padding: 4vh 0;
+
         .sec2-pt2 {
           h1 {
             width: 100%;
             line-height: 1;
+          }
+
+          p {
+            width: 100%;
+            max-width: 600px;
           }
         }
       }
@@ -95,7 +106,7 @@
     .sec3 {
       .sec3-container {
         @include row-center;
-        gap: 3rem;
+        gap: clamp(2.5rem, calc(5.5vw + 1px), 4rem);
 
         .sec3-pt1 {
           width: 32%;
@@ -118,8 +129,19 @@
     .sec4 {
       .sec4-container {
         flex-direction: row;
+        gap: clamp(2.5rem, calc(5.5vw + 1px), 4rem);
 
         .sec4-pt1 {
+          align-self: stretch;
+          height: auto;
+          justify-content: space-between;
+          padding: 4vh 0;
+
+          .pt1-top {
+            h2 {
+              width: 70%;
+            }
+          }
           .pt1-bottom {
             .pt1-bt-item {
               .item-pt1 {
