@@ -122,6 +122,9 @@
 
           .sec3-pt2-item2 {
             gap: clamp(3rem, calc(6vw + 1px), 4rem);
+            h2{
+              width: 80%;
+            }
           }
         }
       }
