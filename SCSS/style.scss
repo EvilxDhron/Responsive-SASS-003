@@ -325,6 +325,128 @@ main {
       }
     }
   }
+  
+  .sec5{
+    width: 100%;
+
+    .sec5-container{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 2rem 0;
+
+      .sec5-cont-item1{
+        width: 100%;
+        
+        img{
+          width: 100%;
+        }
+      }
+      .sec5-cont-item2{
+        width: 100%;
+        aspect-ratio: 1/1;
+        @include img-adjust;
+      }
+      .sec5-cont-item3{
+        @include col-center();
+
+        .item-pt1 {
+          @include col-center;
+          gap: 0.5rem;
+
+          h3 {
+            font-weight: 300;
+            font-size: clamp(2.25rem, calc(3.5vw + 1px), 3rem);
+            font-family: "GeneralSans-Regular";
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+          p {
+            font-size: 1rem;
+            // font-size: clamp(1.1rem, calc(2vw + 1px), 1.2rem);
+            font-family: "Roboto Mono";
+            line-height: 1.5;
+            color: #111;
+            width: 90%;
+          }
+        }
+        .item-pt2 {
+          margin-top: 1rem;
+          @include row-center;
+          justify-content: flex-start;
+          svg {
+            width: 1rem;
+            color: white;
+            padding: 0.7rem;
+            box-sizing: content-box;
+            background-color: #111;
+            border-radius: 50%;
+          }
+          p {
+            font-size: 0.9rem;
+            // font-weight: bold;
+            text-transform: uppercase;
+            // font-size: clamp(1.1rem, calc(2vw + 1px), 1.2rem);
+            font-family: "Roboto Mono";
+            line-height: 1.5;
+            color: black;
+          }
+        }
+      }
+      .sec5-cont-item4{
+        width: 100%;
+        aspect-ratio: 1/1;
+        @include img-adjust;
+      }
+      .sec5-cont-item5{
+        @include col-center();
+
+        .item-pt1 {
+          @include col-center;
+          gap: 0.5rem;
+
+          h3 {
+            font-weight: 300;
+            font-size: clamp(2.25rem, calc(3.5vw + 1px), 3rem);
+            font-family: "GeneralSans-Regular";
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+          p {
+            font-size: 1rem;
+            // font-size: clamp(1.1rem, calc(2vw + 1px), 1.2rem);
+            font-family: "Roboto Mono";
+            line-height: 1.5;
+            color: #111;
+            width: 90%;
+          }
+        }
+        .item-pt2 {
+          margin-top: 1rem;
+          @include row-center;
+          justify-content: flex-start;
+          svg {
+            width: 1rem;
+            color: white;
+            padding: 0.7rem;
+            box-sizing: content-box;
+            background-color: #111;
+            border-radius: 50%;
+          }
+          p {
+            font-size: 0.9rem;
+            // font-weight: bold;
+            text-transform: uppercase;
+            // font-size: clamp(1.1rem, calc(2vw + 1px), 1.2rem);
+            font-family: "Roboto Mono";
+            line-height: 1.5;
+            color: black;
+          }
+        }
+      }
+    }
+  }
 }
 
 @import "_st_media.scss";
