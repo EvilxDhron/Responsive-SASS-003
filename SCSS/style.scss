@@ -336,6 +336,14 @@ main {
       gap: 2rem;
       padding: 2rem 0;
 
+      .sec5-cont-item3{
+        display: none;
+      }
+
+      .sec5-cont-item6{
+        display: none;
+      }
+
       .sec5-cont-item1{
         width: 100%;
         
@@ -348,7 +356,7 @@ main {
         aspect-ratio: 1/1;
         @include img-adjust;
       }
-      .sec5-cont-item3{
+      .sec5-cont-item4{
         @include col-center();
 
         .item-pt1 {
@@ -394,13 +402,14 @@ main {
           }
         }
       }
-      .sec5-cont-item4{
+      .sec5-cont-item7{
         width: 100%;
         aspect-ratio: 1/1;
         @include img-adjust;
       }
       .sec5-cont-item5{
         @include col-center();
+        grid-row: 5/6;
 
         .item-pt1 {
           @include col-center;

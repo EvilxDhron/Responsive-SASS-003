@@ -352,6 +352,12 @@ main .sec5 .sec5-container {
   gap: 2rem;
   padding: 2rem 0;
 }
+main .sec5 .sec5-container .sec5-cont-item3 {
+  display: none;
+}
+main .sec5 .sec5-container .sec5-cont-item6 {
+  display: none;
+}
 main .sec5 .sec5-container .sec5-cont-item1 {
   width: 100%;
 }
@@ -368,14 +374,14 @@ main .sec5 .sec5-container .sec5-cont-item2 img {
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .sec5 .sec5-container .sec5-cont-item3 {
+main .sec5 .sec5-container .sec5-cont-item4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
 }
-main .sec5 .sec5-container .sec5-cont-item3 .item-pt1 {
+main .sec5 .sec5-container .sec5-cont-item4 .item-pt1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -383,21 +389,21 @@ main .sec5 .sec5-container .sec5-cont-item3 .item-pt1 {
   gap: 1rem;
   gap: 0.5rem;
 }
-main .sec5 .sec5-container .sec5-cont-item3 .item-pt1 h3 {
+main .sec5 .sec5-container .sec5-cont-item4 .item-pt1 h3 {
   font-weight: 300;
   font-size: clamp(2.25rem, 3.5vw + 1px, 3rem);
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-main .sec5 .sec5-container .sec5-cont-item3 .item-pt1 p {
+main .sec5 .sec5-container .sec5-cont-item4 .item-pt1 p {
   font-size: 1rem;
   font-family: "Roboto Mono";
   line-height: 1.5;
   color: #111;
   width: 90%;
 }
-main .sec5 .sec5-container .sec5-cont-item3 .item-pt2 {
+main .sec5 .sec5-container .sec5-cont-item4 .item-pt2 {
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
@@ -406,7 +412,7 @@ main .sec5 .sec5-container .sec5-cont-item3 .item-pt2 {
   gap: 1rem;
   justify-content: flex-start;
 }
-main .sec5 .sec5-container .sec5-cont-item3 .item-pt2 svg {
+main .sec5 .sec5-container .sec5-cont-item4 .item-pt2 svg {
   width: 1rem;
   color: white;
   padding: 0.7rem;
@@ -414,18 +420,18 @@ main .sec5 .sec5-container .sec5-cont-item3 .item-pt2 svg {
   background-color: #111;
   border-radius: 50%;
 }
-main .sec5 .sec5-container .sec5-cont-item3 .item-pt2 p {
+main .sec5 .sec5-container .sec5-cont-item4 .item-pt2 p {
   font-size: 0.9rem;
   text-transform: uppercase;
   font-family: "Roboto Mono";
   line-height: 1.5;
   color: black;
 }
-main .sec5 .sec5-container .sec5-cont-item4 {
+main .sec5 .sec5-container .sec5-cont-item7 {
   width: 100%;
   aspect-ratio: 1/1;
 }
-main .sec5 .sec5-container .sec5-cont-item4 img {
+main .sec5 .sec5-container .sec5-cont-item7 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -437,6 +443,7 @@ main .sec5 .sec5-container .sec5-cont-item5 {
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
+  grid-row: 5/6;
 }
 main .sec5 .sec5-container .sec5-cont-item5 .item-pt1 {
   display: flex;
