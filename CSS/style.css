@@ -391,7 +391,7 @@ main .sec5 .sec5-container .sec5-cont-item4 .item-pt1 {
 }
 main .sec5 .sec5-container .sec5-cont-item4 .item-pt1 h3 {
   font-weight: 300;
-  font-size: clamp(2.25rem, 3.5vw + 1px, 3rem);
+  font-size: clamp(2.25rem, 4.45vw + 1px, 4rem);
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -455,7 +455,7 @@ main .sec5 .sec5-container .sec5-cont-item5 .item-pt1 {
 }
 main .sec5 .sec5-container .sec5-cont-item5 .item-pt1 h3 {
   font-weight: 300;
-  font-size: clamp(2.25rem, 3.5vw + 1px, 3rem);
+  font-size: clamp(2.25rem, 4.45vw + 1px, 4rem);
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -631,37 +631,42 @@ main .sec5 .sec5-container .sec5-cont-item5 .item-pt2 p {
     height: auto;
   }
   main .sec5 .sec5-container {
-    grid-template-columns: reeOut 1s ease-out forwards;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  main .sec5 .sec5-container .sec5-cont-item1 {
+    grid-column: 1/4;
+    width: 100%;
+  }
+  main .sec5 .sec5-container .sec5-cont-item3 {
+    display: block;
+    aspect-ratio: 1/1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .sec5 .sec5-container .sec5-cont-item3 img {
+    width: 100%;
+  }
+  main .sec5 .sec5-container .sec5-cont-item6 {
+    display: block;
+    aspect-ratio: 1/1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .sec5 .sec5-container .sec5-cont-item6 img {
+    width: 100%;
+  }
+  main .sec5 .sec5-container .sec5-cont-item4, main .sec5 .sec5-container .sec5-cont-item5 {
+    padding: 2rem;
+  }
 }
-main .hero .hero-container .hero-part2 .imgdiv {
-  scale: 0.9;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: slideIn3 1s ease-out forwards;
-}
-main .hero .hero-container .hero-part2 .imgdiv1 {
-  scale: 0.9;
-  opacity: 0;
-  transform: translateY(-25px);
-  animation: slideIn 1s ease-out forwards;
-}
-main .hero .hero-container .hero-part2 .imgdiv2 {
-  scale: 0.9;
-  opacity: 0;
-  transform: translateX(25px);
-  animation: slideIn2 1s ease-out forwards;
-}
-main .destination .dest-container .item-container .items .img {
-  overflow: hidden;
-}
-main .destination .dest-container .item-container .items .img img {
-  scale: 1;
-  transition: all 0.4s ease-in-out;
-}
-main .destination .dest-container .item-container .items .img img:hover {
-  scale: 1.03;
-}
-main .stories .stories-container .st-img {
+@media (min-width: 1200px) {
+  main .sec2 .sec2-pt1 {
+    aspect-ratio: 1/1;
+  }
+  main .sec3 .sec3-container .sec3-pt1 {
+    aspect-ratio: 1/1;
+  }
+}r .st-img {
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;

@@ -180,6 +180,33 @@
 
         .sec5-cont-item1{
           grid-column: 1/4;
+          width: 100%;
+        }
+
+        .sec5-cont-item3{
+          display: block;
+          aspect-ratio: 1/1;
+          object-fit: cover;
+          // width: 100%;
+          
+          img{
+            width: 100%;
+          }
+        }
+
+        .sec5-cont-item6{
+          display: block;
+          aspect-ratio: 1/1;
+          object-fit: cover;
+          // width: 100%;
+          
+          img{
+            width: 100%;
+          }
+        }
+
+        .sec5-cont-item4, .sec5-cont-item5{
+          padding: 2rem;
         }
       }
     }
