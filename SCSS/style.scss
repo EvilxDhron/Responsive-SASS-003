@@ -458,6 +458,22 @@ main {
       }
     }
   }
+
+  .sec6 {
+    width: 100%;
+
+    .sec6-container {
+      width: 100%;
+
+      .sec6-cont-pt1 {
+        display: none;
+      }
+
+      .sec6-cont-pt2 {
+        width: 100%;
+      }
+    }
+  }
 }
 
 @import "_st_media.scss";

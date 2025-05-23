@@ -493,6 +493,18 @@ main .sec5 .sec5-container .sec5-cont-item5 .item-pt2 p {
   line-height: 1.5;
   color: black;
 }
+main .sec6 {
+  width: 100%;
+}
+main .sec6 .sec6-container {
+  width: 100%;
+}
+main .sec6 .sec6-container .sec6-cont-pt1 {
+  display: none;
+}
+main .sec6 .sec6-container .sec6-cont-pt2 {
+  width: 100%;
+}
 
 @media (min-width: 768px) {
   header nav .nav-part2 .nav-pt2 {
