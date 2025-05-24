@@ -486,7 +486,7 @@ main {
         .cont-pt2-part2{
           width: 100%;
           @include col-center;
-          gap: 1.5rem;
+          gap: clamp(1.5rem, calc(2.5vw + 1px), 2rem);
 
           .pt2-part2-item{
             width: 100%;
@@ -500,7 +500,7 @@ main {
             }
 
             h6{
-              font-size: clamp(1.5rem, calc(2.5vw + 1px), 2rem);
+              font-size: clamp(1.5rem, calc(4vw + 1px), 2rem);
               font-family: "GeneralSans-Regular";
               text-transform: uppercase;
               letter-spacing: 2px;

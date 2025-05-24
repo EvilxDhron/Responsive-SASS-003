@@ -530,7 +530,7 @@ main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 {
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
-  gap: 1.5rem;
+  gap: clamp(1.5rem, 2.5vw + 1px, 2rem);
 }
 main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item {
   width: 100%;
@@ -547,7 +547,7 @@ main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item p {
   font-family: "Roboto Mono";
 }
 main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item h6 {
-  font-size: clamp(1.5rem, 2.5vw + 1px, 2rem);
+  font-size: clamp(1.5rem, 4vw + 1px, 2rem);
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -590,6 +590,27 @@ main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .sec6-line {
   }
   main .sec5 .sec5-container .sec5-cont-item5 {
     grid-row: initial;
+  }
+  main .sec6 .sec6-container {
+    padding: 1rem 0 4rem 0;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 {
+    align-items: center;
+    gap: 2.5rem;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part1 {
+    width: 100%;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part1 img {
+    width: 100%;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item {
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item .para {
+    margin-left: auto;
   }
 }
 @media (min-width: 990px) {

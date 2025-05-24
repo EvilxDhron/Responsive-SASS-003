@@ -46,6 +46,37 @@
         }
       }
     }
+
+
+    .sec6{
+      .sec6-container{
+        padding: 1rem 0 4rem 0;
+        .sec6-cont-pt2{
+          align-items: center;
+          gap: 2.5rem;
+
+          .cont-pt2-part1{
+            width: 100%;
+
+            img{
+              width: 100%;
+            }
+          }
+
+          .cont-pt2-part2{
+            .pt2-part2-item{
+              flex-direction: row;
+              align-items: center;
+              gap: 2.5rem;
+
+              .para{
+                margin-left: auto;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
