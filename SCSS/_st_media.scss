@@ -47,29 +47,28 @@
       }
     }
 
-
-    .sec6{
-      .sec6-container{
+    .sec6 {
+      .sec6-container {
         padding: 1rem 0 4rem 0;
-        .sec6-cont-pt2{
+        .sec6-cont-pt2 {
           align-items: center;
           gap: 2.5rem;
 
-          .cont-pt2-part1{
+          .cont-pt2-part1 {
             width: 100%;
 
-            img{
+            img {
               width: 100%;
             }
           }
 
-          .cont-pt2-part2{
-            .pt2-part2-item{
+          .cont-pt2-part2 {
+            .pt2-part2-item {
               flex-direction: row;
               align-items: center;
               gap: 2.5rem;
 
-              .para{
+              .para {
                 margin-left: auto;
               }
             }
@@ -283,40 +282,40 @@
       }
     }
 
-    .sec6{
-      .sec6-container{
+    .sec6 {
+      .sec6-container {
         width: 100%;
         @include row-center;
 
-        .sec6-cont-pt1{
+        .sec6-cont-pt1 {
           display: block;
           width: 35%;
         }
 
-        .sec6-cont-pt2{
+        .sec6-cont-pt2 {
           width: 65%;
 
-          .cont-pt2-part1{
+          .cont-pt2-part1 {
             width: 100%;
             @include row-center;
             gap: 2rem;
 
-              .img-div1{
-                display: block;
-                width: 50%;
-                height: 1.5rem;
-              }
+            .img-div1 {
+              display: block;
+              width: 50%;
+              height: 1.5rem;
+            }
 
-              .img-div2{
-                width: 50%;
-              }
+            .img-div2 {
+              width: 50%;
+            }
           }
 
-          .cont-pt2-part2{
+          .cont-pt2-part2 {
             gap: clamp(1rem, calc(1.8vw + 1px), 1.5rem);
 
-            .pt2-part2-item{
-              h6{
+            .pt2-part2-item {
+              h6 {
                 font-size: clamp(1.2rem, calc(2.19vw + 1px), 2rem);
                 font-weight: 400;
               }
