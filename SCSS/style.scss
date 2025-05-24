@@ -517,6 +517,15 @@ main {
       }
     }
   }
+
+  .sec7{
+    width: 100%;
+
+    .sec7-container{
+      width: 100%;
+      @include row-center;
+    }
+  }
 }
 
 @import "_st_media.scss";

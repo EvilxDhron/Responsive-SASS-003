@@ -558,6 +558,17 @@ main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .sec6-line {
   height: 1px;
   background-color: rgb(197, 196, 196);
 }
+main .sec7 {
+  width: 100%;
+}
+main .sec7 .sec7-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
 
 @media (min-width: 768px) {
   header nav .nav-part2 .nav-pt2 {
