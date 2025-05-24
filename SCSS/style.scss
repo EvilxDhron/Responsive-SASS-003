@@ -471,6 +471,49 @@ main {
 
       .sec6-cont-pt2 {
         width: 100%;
+        @include col-center;
+        gap: 2rem;
+
+        .img-div1{
+          display: none;
+        }
+
+        .img-div2{
+          width: 100%;
+          @include img-adjust;
+        }
+
+        .cont-pt2-part2{
+          width: 100%;
+          @include col-center;
+          gap: 1.5rem;
+
+          .pt2-part2-item{
+            width: 100%;
+            @include col-center;
+            gap: 0.7rem;
+            
+            p{
+              font-size: 0.85rem;
+              text-transform: uppercase;
+              font-family: "Roboto Mono";
+            }
+
+            h6{
+              font-size: clamp(1.5rem, calc(2.5vw + 1px), 2rem);
+              font-family: "GeneralSans-Regular";
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              font-weight: 500;
+            }
+          }
+
+          .sec6-line{
+            width: 100%;
+            height: 1px;
+            background-color: rgb(197, 196, 196);
+          }
+        }
       }
     }
   }

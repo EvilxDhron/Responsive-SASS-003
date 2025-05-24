@@ -504,6 +504,59 @@ main .sec6 .sec6-container .sec6-cont-pt1 {
 }
 main .sec6 .sec6-container .sec6-cont-pt2 {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  gap: 2rem;
+}
+main .sec6 .sec6-container .sec6-cont-pt2 .img-div1 {
+  display: none;
+}
+main .sec6 .sec6-container .sec6-cont-pt2 .img-div2 {
+  width: 100%;
+}
+main .sec6 .sec6-container .sec6-cont-pt2 .img-div2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  gap: 1.5rem;
+}
+main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  gap: 0.7rem;
+}
+main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item p {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  font-family: "Roboto Mono";
+}
+main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item h6 {
+  font-size: clamp(1.5rem, 2.5vw + 1px, 2rem);
+  font-family: "GeneralSans-Regular";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .sec6-line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(197, 196, 196);
 }
 
 @media (min-width: 768px) {
