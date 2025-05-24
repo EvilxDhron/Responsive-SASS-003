@@ -792,6 +792,45 @@ main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .sec6-line {
     padding: clamp(1rem, 2vw + 1px, 2rem) 2rem;
     justify-content: space-between;
   }
+  main .sec6 .sec6-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt1 {
+    display: block;
+    width: 35%;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 {
+    width: 65%;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    gap: 2rem;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part1 .img-div1 {
+    display: block;
+    width: 50%;
+    height: 1.5rem;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part1 .img-div2 {
+    width: 50%;
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 {
+    gap: clamp(1rem, 1.8vw + 1px, 1.5rem);
+  }
+  main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item h6 {
+    font-size: clamp(1.2rem, 2.19vw + 1px, 2rem);
+    font-weight: 400;
+  }
 }
 @media (min-width: 1200px) {
   main .sec2 .sec2-pt1 {
