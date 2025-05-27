@@ -527,6 +527,22 @@ main {
 
       .sec-cont-part1 {
         width: 100%;
+
+        h2 {
+          font-weight: 300;
+          font-size: clamp(2.25rem, calc(4.45vw + 1px), 4rem);
+          font-family: "GeneralSans-Regular";
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+        p {
+          font-size: 1rem;
+          // font-size: clamp(1.1rem, calc(2vw + 1px), 1.2rem);
+          font-family: "Roboto Mono";
+          line-height: 1.5;
+          color: #111;
+          width: 90%;
+        }
       }
       .sec-cont-part2 {
         width: 100%;
