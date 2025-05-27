@@ -524,6 +524,13 @@ main {
     .sec7-container {
       width: 100%;
       @include row-center;
+
+      .sec-cont-part1 {
+        width: 100%;
+      }
+      .sec-cont-part2 {
+        width: 100%;
+      }
     }
   }
 }
