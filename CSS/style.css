@@ -588,9 +588,10 @@ main .sec7 .sec7-container .sec-cont-part1 h2 {
 }
 main .sec7 .sec7-container .sec-cont-part1 p {
   font-size: 1.15rem;
-  font-family: "Roboto Mono";
+  font-family: "Roboto Mono", sans-serif;
   line-height: 1.5;
   color: #111;
+  text-align: justify;
 }
 main .sec7 .sec7-container .sec-cont-part2 {
   width: 100%;
@@ -603,7 +604,6 @@ main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
   gap: 1rem;
 }
 main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items h3 {
@@ -643,7 +643,7 @@ main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail
   font-weight: 400;
 }
 main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail-pt1 .logo {
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -715,6 +715,11 @@ main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail
   }
   main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item .para {
     margin-left: auto;
+  }
+}
+@media (min-width: 810px) {
+  main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items h3 {
+    font-size: clamp(1rem, 2.9vw + 1px, 2.5rem);
   }
 }
 @media (min-width: 990px) {
@@ -934,6 +939,27 @@ main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail
   main .sec6 .sec6-container .sec6-cont-pt2 .cont-pt2-part2 .pt2-part2-item h6 {
     font-size: clamp(1.2rem, 2.19vw + 1px, 2rem);
     font-weight: 400;
+  }
+  main .sec7 .sec7-container .sec-cont-part1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  main .sec7 .sec7-container .sec-cont-part1 p {
+    font-size: clamp(1rem, 1.78vw + 1px, 1.2rem);
+  }
+  main .sec7 .sec7-container .sec-cont-part2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items h3 {
+    font-size: clamp(1rem, 1.78vw + 1px, 2.5rem);
+  }
+  main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail-pt1 h4 {
+    font-size: 0.82rem;
+  }
+  main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail-pt2 {
+    font-size: 1rem;
   }
 }
 @media (min-width: 1200px) {
