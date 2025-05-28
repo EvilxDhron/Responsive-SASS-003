@@ -642,6 +642,8 @@ main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail
   font-size: 1rem;
   width: 100%;
   font-family: "Roboto Mono", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail-pt1 .logo {
   width: 100%;
