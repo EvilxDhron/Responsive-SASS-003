@@ -525,7 +525,7 @@ main {
       width: 100%;
       @include col-center;
       padding: max(4vw, 5vh) 0;
-      gap: 2.5rem;
+      gap: clamp(2.5rem, calc(6.5vw + 1px), 4rem);
 
       .sec-cont-part1 {
         width: 100%;
@@ -533,7 +533,7 @@ main {
 
         h2 {
           font-weight: 300;
-          font-size: clamp(3rem, calc(5vw + 1px), 4rem);
+          font-size: clamp(3rem, calc(9.7vw + 1px), 7.5rem);
           font-family: "GeneralSans-Regular";
           text-transform: uppercase;
           letter-spacing: 1px;
@@ -548,7 +548,9 @@ main {
       }
       .sec-cont-part2 {
         width: 100%;
-        @include col-center;
+        // @include col-center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
 
         .cont-part2-items{
