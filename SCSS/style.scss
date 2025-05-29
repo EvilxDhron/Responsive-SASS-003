@@ -612,6 +612,61 @@ main {
       }
     }
   }
+  .sec8 {
+    width: 100%;
+
+    .sec8-container {
+      width: 100%;
+      @include col-center;
+      padding: 1rem 0 max(4vw, 5vh) 0;
+
+      .sec8-pt1 {
+        width: 100%;
+        @include col-center;
+
+        p {
+          font-size: 0.85rem;
+          font-family: "Roboto Mono", sans-serif;
+          line-height: 1.5;
+          color: #111;
+          text-align: justify;
+        }
+
+        h3 {
+          font-size: clamp(2.1rem, calc(5vw + 1px), 3rem);
+          line-height: 1.2;
+          font-family: "GeneralSans-Regular";
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-weight: 500;
+        }
+
+        .btn {
+          margin-top: 1.2rem;
+          @include row-center;
+          justify-content: flex-start;
+          svg {
+            width: 1rem;
+            color: white;
+            padding: 0.7rem;
+            box-sizing: content-box;
+            background-color: #111;
+            border-radius: 50%;
+          }
+          p {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            font-family: "Roboto Mono";
+            line-height: 1.5;
+            color: black;
+          }
+        }
+      }
+      .sec8-pt2 {
+        display: none;
+      }
+    }
+  }
 }
 
 @import "_st_media.scss";
