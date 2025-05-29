@@ -664,6 +664,7 @@ main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail
 }
 main .sec8 {
   width: 100%;
+  border-top: 2px solid rgb(205, 204, 204);
 }
 main .sec8 .sec8-container {
   width: 100%;
@@ -672,7 +673,7 @@ main .sec8 .sec8-container {
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem 0 max(4vw, 5vh) 0;
+  padding: 1rem 0 max(5vw, 5vh) 0;
 }
 main .sec8 .sec8-container .sec8-pt1 {
   width: 100%;
@@ -690,7 +691,7 @@ main .sec8 .sec8-container .sec8-pt1 p {
   text-align: justify;
 }
 main .sec8 .sec8-container .sec8-pt1 h3 {
-  font-size: clamp(2.1rem, 5vw + 1px, 3rem);
+  font-size: clamp(2.1rem, 6.9vw + 1px, 4rem);
   line-height: 1.2;
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;

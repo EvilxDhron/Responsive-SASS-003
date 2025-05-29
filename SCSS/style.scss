@@ -614,11 +614,12 @@ main {
   }
   .sec8 {
     width: 100%;
+    border-top: 2px solid rgb(205, 204, 204);
 
     .sec8-container {
       width: 100%;
       @include col-center;
-      padding: 1rem 0 max(4vw, 5vh) 0;
+      padding: 1rem 0 max(5vw, 5vh) 0;
 
       .sec8-pt1 {
         width: 100%;
@@ -633,7 +634,7 @@ main {
         }
 
         h3 {
-          font-size: clamp(2.1rem, calc(5vw + 1px), 3rem);
+          font-size: clamp(2.1rem, calc(6.9vw + 1px), 4rem);
           line-height: 1.2;
           font-family: "GeneralSans-Regular";
           text-transform: uppercase;
