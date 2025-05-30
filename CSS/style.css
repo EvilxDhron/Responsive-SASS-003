@@ -725,6 +725,15 @@ main .sec8 .sec8-container .sec8-pt1 .btn p {
 main .sec8 .sec8-container .sec8-pt2 {
   display: none;
 }
+main .sec9 {
+  width: 100%;
+}
+main .sec9 .sec9-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (min-width: 768px) {
   header nav .nav-part2 .nav-pt2 {
