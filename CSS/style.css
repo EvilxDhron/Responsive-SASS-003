@@ -664,7 +664,6 @@ main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail
 }
 main .sec8 {
   width: 100%;
-  border-top: 2px solid rgb(205, 204, 204);
 }
 main .sec8 .sec8-container {
   width: 100%;
@@ -673,7 +672,7 @@ main .sec8 .sec8-container {
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem 0 max(5vw, 5vh) 0;
+  padding: 0 0 max(5vw, 5vh) 0;
 }
 main .sec8 .sec8-container .sec8-pt1 {
   width: 100%;
@@ -682,6 +681,8 @@ main .sec8 .sec8-container .sec8-pt1 {
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid rgb(205, 204, 204);
 }
 main .sec8 .sec8-container .sec8-pt1 p {
   font-size: 0.85rem;

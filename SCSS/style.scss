@@ -614,16 +614,17 @@ main {
   }
   .sec8 {
     width: 100%;
-    border-top: 2px solid rgb(205, 204, 204);
 
     .sec8-container {
       width: 100%;
       @include col-center;
-      padding: 1rem 0 max(5vw, 5vh) 0;
+      padding: 0 0 max(5vw, 5vh) 0;
 
       .sec8-pt1 {
         width: 100%;
         @include col-center;
+        padding-top: 1rem;
+        border-top: 2px solid rgb(205, 204, 204);
 
         p {
           font-size: 0.85rem;
