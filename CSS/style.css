@@ -696,7 +696,6 @@ main .sec8 .sec8-container .sec8-pt1 h3 {
   line-height: 1.2;
   font-family: "GeneralSans-Regular";
   text-transform: uppercase;
-  letter-spacing: 2px;
   font-weight: 500;
 }
 main .sec8 .sec8-container .sec8-pt1 .btn {
@@ -1024,6 +1023,24 @@ main .sec8 .sec8-container .sec8-pt2 {
   }
   main .sec7 .sec7-container .sec-cont-part2 .cont-part2-items .detail-div .detail-pt2 {
     font-size: 1rem;
+  }
+  main .sec8 .sec8-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row-reverse;
+  }
+  main .sec8 .sec8-container .sec8-pt1 {
+    width: 50%;
+  }
+  main .sec8 .sec8-container .sec8-pt1 h3 {
+    font-size: clamp(2.7rem, 4.5vw + 1px, 4rem);
+  }
+  main .sec8 .sec8-container .sec8-pt2 {
+    display: block;
+    width: 50%;
   }
 }
 @media (min-width: 1200px) {

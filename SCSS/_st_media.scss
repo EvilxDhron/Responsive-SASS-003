@@ -375,6 +375,23 @@
         }
       }
     }
+    .sec8 {
+      .sec8-container {
+        @include row-center;
+        flex-direction: row-reverse;
+
+        .sec8-pt1 {
+          width: 50%;
+          h3 {
+            font-size: clamp(2.7rem, calc(4.5vw + 1px), 4rem);
+          }
+        }
+        .sec8-pt2 {
+          display: block;
+          width: 50%;
+        }
+      }
+    }
   }
 }
 
