@@ -668,15 +668,28 @@ main {
       }
     }
   }
+}
+
+footer {
+  width: 100%;
+  background-color: #111111;
+  padding: clamp(0.8rem, calc(2.7vw + 1px), 2.3rem)
+    clamp(1.5rem, 6vw + 1px, 3.5rem);
 
   .sec9 {
     width: 100%;
 
     .sec9-container {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      // margin: 0 auto;
+      width: 80%;
+      @include col-center;
+      background-color: #111111;
+      color: aliceblue;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
     }
   }
 }

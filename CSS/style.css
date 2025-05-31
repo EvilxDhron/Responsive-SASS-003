@@ -725,14 +725,29 @@ main .sec8 .sec8-container .sec8-pt1 .btn p {
 main .sec8 .sec8-container .sec8-pt2 {
   display: none;
 }
-main .sec9 {
+
+footer {
+  width: 100%;
+  background-color: #111111;
+  padding: clamp(0.8rem, 2.7vw + 1px, 2.3rem) clamp(1.5rem, 6vw + 1px, 3.5rem);
+}
+footer .sec9 {
   width: 100%;
 }
-main .sec9 .sec9-container {
-  width: 100%;
+footer .sec9 .sec9-container {
+  width: 80%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+  gap: 1rem;
+  background-color: #111111;
+  color: aliceblue;
+}
+footer .sec9 .sec9-container img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 768px) {
