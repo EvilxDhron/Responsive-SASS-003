@@ -393,6 +393,15 @@
       }
     }
   }
+  footer {
+    .sec9 {
+      .sec9-container {
+        h2 {
+          font-size: clamp(1.5rem, calc(4.45vw + 1px), 4.05rem);
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 1200px) {
@@ -416,6 +425,15 @@
         }
         .sec5-cont-item1 {
           margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+  footer {
+    .sec9 {
+      .sec9-container {
+        h2 {
+          width: min(75%, 1000px);
         }
       }
     }
